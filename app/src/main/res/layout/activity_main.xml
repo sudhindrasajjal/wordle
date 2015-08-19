@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="#96CCF0">
+
+
+    <EditText
+        android:layout_width="560px"
+        android:layout_height="80px"
+        android:paddingLeft="30px"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Username"
+        android:background="@drawable/edit1"
+        android:id="@+id/textView"
+        android:textSize="7pt"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="159dp" />
+
+    <EditText
+        android:layout_width="560px"
+        android:layout_height="80px"
+        android:paddingLeft="30px"
+        android:textSize="7pt"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:hint="Password"
+        android:id="@+id/textView2"
+        android:background="@drawable/edit1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:password="true" />
+
+    <Button
+        android:layout_width="250px"
+        android:layout_height="72px"
+        android:text="Login"
+
+        android:background="@drawable/button_login"
+        android:id="@+id/button"
+        android:textColor="#fff"
+        android:layout_marginTop="54dp"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Are you a new user?"
+        android:textColor="#fff"
+        android:textSize="8pt"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp" />
+    <View
+        android:layout_width="170dp"
+        android:layout_height="1dp"
+        android:background="#fff"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="400px"
+        android:layout_height="100px"
+        android:id="@+id/imageView"
+        android:src="@drawable/logo"
+        android:layout_marginTop="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
